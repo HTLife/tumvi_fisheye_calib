@@ -46,3 +46,25 @@ equidistant (equi)
 
 ## After calibration (pinhole model)
 ![](./out.png)
+
+
+
+# Matlab example
+https://github.com/ethz-asl/kalibr/files/272054/Undistort.m.txt
+```matlab
+imageD = imread('1.png');
+D = [-0.05972430882700243, 0.17468739202093328, 0.000737218969875311,0.000574074894976456];
+
+intri = [190.97847715128717, 190.9733070521226, 254.93170605935475, 256.8974428996504];
+D = [0.0034823894022493434, 0.0007150348452162257, -0.0020532361418706202, 0.00020293673591811182];
+fu = intri(1);
+fv = intri(2);
+pu = intri(3);
+pv = intri(4);
+
+K = [fu 0 pu
+    0 fv pv
+    0 0 1];
+unImg = Undistort(imageD, D, K, 'equi');
+imshow(unImg);
+```
