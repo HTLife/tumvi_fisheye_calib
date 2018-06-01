@@ -4,6 +4,7 @@ Image undistortion example with OpenCV Python for **TUM Visual-Inertial Dataset*
 
 ## Camera geometric model
 (Reference: https://github.com/ethz-asl/kalibr/wiki/supported-models)
+
 Two key parameters is been used for geometric calibration:
 1. Intrinsic model
 2. distortion model
