@@ -21,9 +21,9 @@ The intrinsics vector contains all parameters for the model:
   * xi: mirror parameter (only omni)
 ```
 K = 
-fu*fu cot(xi) pu
-0     fv      pv
-0     0       1
+fu   fu*cot(xi) pu
+0     fv        pv
+0     0         1
 ```
 ### Pinhole
 pinhole camera model (pinhole) 
