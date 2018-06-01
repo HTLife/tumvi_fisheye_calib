@@ -10,7 +10,7 @@ Two key parameters is been used for geometric calibration:
 2. distortion model
 
 ## Camera model
----
+
 ### Omnidirectional
 omnidirectional camera model (omni) 
 (intrinsics vector: [xi fu fv pu pv])
@@ -34,15 +34,15 @@ fu    0       pu
 0     fv      pv
 0     0       1
 ```
----
+
 
 ## Distortion model
 
 equidistant (equi)
 (distortion_coeffs: [k1 k2 k3 k4])
 
-## Before calibration
+## Before calibration (pinhole model)
 ![](./1.png)
 
-## After calibration
+## After calibration (pinhole model)
 ![](./out.png)
