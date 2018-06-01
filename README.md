@@ -41,10 +41,10 @@ fu    0       pu
 equidistant (equi)
 (distortion_coeffs: [k1 k2 k3 k4])
 
-## Before calibration (pinhole model)
+## Before calibration (pinhole-equi-512 model)
 ![](./1.png)
 
-## After calibration (pinhole model)
+## After calibration (pinhole-equi-512 model)
 ![](./out.png)
 
 
