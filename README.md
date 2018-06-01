@@ -1,4 +1,4 @@
-# Fisheye camera clibration
+# Fisheye camera calibration
 
 Camera calibration example for:
 TUM Visual-Inertial Dataset
@@ -10,9 +10,9 @@ pinhole camera model (pinhole)
 (intrinsics vector: [fu fv pu pv])
 ```
 K = 
-fu 0 pu
+fu 0  pu
 0  fv pv
-0 0 1
+0  0  1
 ```
 
 equidistant (equi)
