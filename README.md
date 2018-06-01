@@ -1,4 +1,4 @@
-# Fisheye camera distortion calibration
+# Camera distortion calibration
 
 Image undistortion example with OpenCV Python for **TUM Visual-Inertial Dataset**
 
